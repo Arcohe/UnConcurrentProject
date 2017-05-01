@@ -103,7 +103,7 @@ public class Level1State extends GameState{
 		//update()
 		player.update();
 		tileMap.setPosition(GamePanel.width / 2 - player.getX(), GamePanel.height / 2 - player.getY());
-		System.out.println(tileMap.getX());
+		//System.out.println(tileMap.getX());
 		//enables the background to follow the player
 		bg.setPosition(tileMap.getX(), tileMap.getY());
 		
